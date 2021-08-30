@@ -19,7 +19,7 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
-          <a href="/user">Lista de usuários</a> 
+          <a href="/user">Lista de usuários!</a> 
         </p>
 
     
