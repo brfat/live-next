@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: purple;
+    color: white;
 }
 
 .main {
@@ -15,6 +17,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: purple;
+    color: white;
 }
 
 .footer {
@@ -88,12 +92,14 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
+  background: purple;
+    color: white;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: white;
   border-color: #0070f3;
 }
 
