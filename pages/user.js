@@ -6,7 +6,7 @@ const User = () => {
     return (
         <div className={styles.card}>
         <h1>Tela de Usuários</h1>
-        Lista de users
+        Lista de users!
         </div>
     )
     

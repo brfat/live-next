@@ -1,18 +1,60 @@
-import styles from '../styles/Home.module.css'
+import styles from "../styles/Home.module.css";
 
-const coins = () => {
-    return (
-        <div className={styles.card}>
-            <h1>Lista de Criptomoedas</h1>
-            <ul>
-                <li>Bitcoin</li>
-                <li>Ethereum</li>
-                <li>ADA Cardano</li>
-                <li>Wbix</li>
-                <li>Litecoin</li>
-            </ul>
+function coins() {
+  const coinsList = [
+    {
+      id: "1",
+      name: "Bitcoin",
+      price: "R$ 250.000,00",
+      recomendacao: "Forte compra",
+    },
+
+    {
+      id: "2",
+      name: "Ethereum",
+      price: "R$ 17.000,00",
+      recomendacao: "Forte compra",
+    },
+
+    {
+      id: "3",
+      name: "ADA",
+      price: "R$ 14.000,00",
+      recomendacao: "Forte compra",
+    },
+    {
+        id: "4",
+        name: "Litecoin",
+        price: "R$ 900,00",
+        recomendacao: "Forte venda",
+      },
+  
+      {
+        id: "5",
+        name: "Polygon MATIC",
+        price: "R$ 7,00",
+        recomendacao: "Forte compra",
+      },
+  
+      {
+        id: "6",
+        name: "Chiliz",
+        price: "R$ 1,93",
+        recomendacao: "Forte compra",
+      },
+  ];
+
+  return (
+    <>
+      {coinsList.map((item) => (
+        <div key={item.id} className={styles.card}>
+          <h3>{item.name}</h3>
+          <h5 className="price">{item.price}</h5>
+          <span className="recomendacao">{item.recomendacao}</span>
         </div>
-    )
+      ))}
+    </>
+  );
 }
 
 export default coins;
