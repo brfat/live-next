@@ -8,10 +8,6 @@ body {
     
 }
 
-#__next {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-} 
 
 a {
   color: inherit;
@@ -22,8 +18,4 @@ a {
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) {
-  #__next {   
-    grid-template-columns: 1fr;
-  } 
-}
+

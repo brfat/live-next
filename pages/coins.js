@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import Logo from "../components/Logo";
 
 function coins() {
   const coinsList = [
@@ -23,36 +24,39 @@ function coins() {
       recomendacao: "Forte compra",
     },
     {
-        id: "4",
-        name: "Litecoin",
-        price: "R$ 900,00",
-        recomendacao: "Forte venda",
-      },
-  
-      {
-        id: "5",
-        name: "Polygon MATIC",
-        price: "R$ 7,00",
-        recomendacao: "Forte compra",
-      },
-  
-      {
-        id: "6",
-        name: "Chiliz",
-        price: "R$ 1,93",
-        recomendacao: "Forte compra",
-      },
+      id: "4",
+      name: "Litecoin",
+      price: "R$ 900,00",
+      recomendacao: "Forte venda",
+    },
+
+    {
+      id: "5",
+      name: "Polygon MATIC",
+      price: "R$ 7,00",
+      recomendacao: "Forte compra",
+    },
+
+    {
+      id: "6",
+      name: "Chiliz",
+      price: "R$ 1,93",
+      recomendacao: "Forte compra",
+    },
   ];
 
   return (
     <>
-      {coinsList.map((item) => (
-        <div key={item.id} className={styles.card}>
-          <h3>{item.name}</h3>
-          <h5 className="price">{item.price}</h5>
-          <span className="recomendacao">{item.recomendacao}</span>
-        </div>
-      ))}
+      <Logo />
+      <div className={styles.wrapper_coins}>
+        {coinsList.map((item) => (
+          <div key={item.id} className={styles.card}>
+            <h3>{item.name}</h3>
+            <h5 className="price">{item.price}</h5>
+            <span className="recomendacao">{item.recomendacao}</span>
+          </div>
+        ))}
+      </div>
     </>
   );
 }
