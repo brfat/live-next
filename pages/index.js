@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,8 +13,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.container}>
-      <a href="/user">Lista de Usuários</a>
-       <a href="/coins">Lista de Criptomoedas</a>
+      <Link href="/user">Lista de Usuários</Link>
+       <Link href="/coins">Lista de Criptomoedas</Link>
       </main>
 
       <footer className={styles.footer}>
