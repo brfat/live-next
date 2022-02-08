@@ -13,8 +13,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.container}>
-      <Link href="/user">Lista de Usuários</Link>
-       <Link href="/coins">Lista de Criptomoedas</Link>
+      <Link href="/user">Lista de Usuários!!</Link>
+       <Link href="/coins">Lista de Criptomoedas!!</Link>
       </main>
 
       <footer className={styles.footer}>

@@ -6,7 +6,7 @@ function coins() {
     {
       id: "1",
       name: "Bitcoin",
-      price: "R$ 250.000,00",
+      price: "R$ 231.000,00",
       recomendacao: "Forte compra",
     },
 
