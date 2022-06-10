@@ -16,8 +16,8 @@ export default function Home() {
      </div>
 
      <footer className={styles.footer}>
-      <Link href="/user">Lista de Usuários!!</Link>
-       <Link href="/coins">Lista de Criptomoedas!!</Link>
+      <Link href="/user">Usuarios</Link>
+       <Link href="/coins">criptomoedas</Link>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
