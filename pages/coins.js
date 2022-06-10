@@ -6,27 +6,27 @@ function coins() {
     {
       id: "1",
       name: "Bitcoin",
-      price: "R$ 231.000,00",
+      price: "R$ 197.000,00",
       recomendacao: "Forte compra",
     },
 
     {
       id: "2",
       name: "Ethereum",
-      price: "R$ 17.000,00",
+      price: "R$ 14.000,00",
       recomendacao: "Forte compra",
     },
 
     {
       id: "3",
       name: "ADA",
-      price: "R$ 14.000,00",
+      price: "R$ 4,00",
       recomendacao: "Forte compra",
     },
     {
       id: "4",
       name: "Litecoin",
-      price: "R$ 900,00",
+      price: "R$ 500,00",
       recomendacao: "Forte venda",
     },
 
