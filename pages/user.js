@@ -4,8 +4,10 @@ import Logo from "../components/Logo";
 
 
 const User = () => {
-    <Logo />
+    
     return (
+        <>
+        <Logo />
         <div className={styles.card}>
         <h1>Tela de Usuários</h1>
         Lista de users!
@@ -17,6 +19,7 @@ const User = () => {
             <li>Usuário 5</li>
         </ul>
         </div>
+        </>
     )
     
 }
